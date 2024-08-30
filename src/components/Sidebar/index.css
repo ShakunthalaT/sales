@@ -1,0 +1,50 @@
+.sidebar-view {
+  width: 25%;
+  max-width: 100%;
+  flex-shrink: 0;
+  min-height: 100vh;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dashboard {
+  background-color: #c0c0c0;
+  margin-right: 30px;
+  padding: 10px;
+  color: #800080;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.option {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: Gray;
+  margin-bottom: 20px;
+}
+.list {
+  margin-bottom: 20px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: gray;
+}

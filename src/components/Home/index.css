@@ -1,0 +1,50 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #808080;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.line-chart-container {
+  width: 450px;
+  background-color: #fff;
+  max-width: 100%;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .line-chart-container {
+    width: 650px;
+    background-color: #fff;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 2px;
+  }
+}
+
+.pie-chart-container {
+  width: 450px;
+  background-color: #fff;
+  max-width: 100%;
+  margin: 20px;
+  border-radius: 2px;
+}
+.heading {
+  padding-left: 30px;
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.main-container {
+  display: flex;
+}
